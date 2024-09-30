@@ -1,5 +1,5 @@
 ### 💡 개요
-- close #ISSUE_NUMBER
+- #ISSUE_NUMBER
 
 ### 📃 작업 내용
 - 작업 내용을 간략히 적어주세요.
