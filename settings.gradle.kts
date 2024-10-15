@@ -21,4 +21,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "StelPlay-Android"
 include(":app")
- 
