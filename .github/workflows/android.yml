@@ -65,6 +65,6 @@ jobs:
           webhook: ${{ secrets.STELPLAY_DISCORD_WEBHOOK }}
           status: ${{ job.status }}
           image: ${{ secrets.FAILED_IMAGE }}
-          color: 00FF00
+          color: FF0000
           url: "https://github.com/sarisia/actions-status-discord"
           username: StelPlay CI Bot

@@ -8,10 +8,10 @@ plugins {
 
 allprojects {
     afterEvaluate {
-        apply(plugin = "io.gitlab.arturbosch.detekt")
+        apply(plugin = libs.plugins.detekt.get().pluginId)
 
         detekt {
-            toolVersion = "1.23.6"
+            toolVersion = libs.versions.detekt.get()
             buildUponDefaultConfig = true
             config.setFrom(files("$rootDir/config/detekt/detekt.yml"))
         }
