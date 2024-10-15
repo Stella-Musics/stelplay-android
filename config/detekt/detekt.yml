@@ -72,6 +72,9 @@ naming:
   FunctionNaming:
     ignoreAnnotated:
       - 'Composable'
+  PackageNaming:
+    active: true
+    packagePattern: '[a-z_]+(\.[a-z][A-Za-z0-9_]*)*'
 
 performance:
   active: true
