@@ -1,4 +1,6 @@
 pluginManagement {
+    includeBuild("build-logic")
+
     repositories {
         google {
             content {
@@ -21,3 +23,18 @@ dependencyResolutionManagement {
 
 rootProject.name = "StelPlay-Android"
 include(":app")
+include(":core:data")
+include(":core:domain")
+include(":core:network")
+include(":core:model")
+include(":core:designsystem")
+include(":core:navigation")
+include(":feature:home")
+include(":feature:music")
+include(":feature:artist")
+include(":feature:storage")
+include(":common:android")
+include(":common:compose")
+include(":common:kotlin")
+
+gradle.startParameter.excludedTaskNames.addAll(listOf(":build-logic:testClasses"))
