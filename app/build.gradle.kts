@@ -5,7 +5,7 @@ plugins {
 
 dependencies {
     implementation(libs.androidx.core.ktx)
-    implementation(libs.androidx.profileinstaller)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.test.ext)
     androidTestImplementation(libs.androidx.test.espresso)
