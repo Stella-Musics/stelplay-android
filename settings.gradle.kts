@@ -36,5 +36,6 @@ include(":feature:storage")
 include(":common:android")
 include(":common:compose")
 include(":common:kotlin")
+include(":baselineprofile")
 
 gradle.startParameter.excludedTaskNames.addAll(listOf(":build-logic:testClasses"))
